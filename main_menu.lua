@@ -1,8 +1,8 @@
 -----------------------------------------------------------------------------------------
 --
 -- main_menu.lua
--- Created by: Your Name
--- Date: Month Day, Year
+-- Created by: Avery Mack
+-- Date: April 10, 2018
 -- Description: This is the main menu, displaying the credits, instructions & play buttons.
 -----------------------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ end
 -------------------------------------------------------------------------------------
 -- creating transition function to instructions page
 local function InstructionsTransition( )
-    composer.gotoScene( "instructions_screen", {effect = "flipFadeOutIn", time = 500})
+    composer.gotoScene( "instructions_screen", {effect = "slideDown", time = 500})
 end 
 
 -----------------------------------------------------------------------------------------

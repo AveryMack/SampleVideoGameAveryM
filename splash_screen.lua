@@ -33,10 +33,13 @@ local jungleSoundsChannel
 -- LOCAL FUNCTIONS
 --------------------------------------------------------------------------------------------
 
+local rotationSpeed = 3
+
 -- The function that moves the puppy across the screen
 local function movePuppy()
     puppy.x = puppy.x + scrollXSpeed
     puppy.y = puppy.y + scrollYSpeed
+    puppy.rotation = puppy.rotation + rotationSpeed
 end
 
 -- The function that will go to the main menu 

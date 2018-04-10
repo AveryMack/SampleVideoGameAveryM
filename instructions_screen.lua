@@ -35,7 +35,7 @@ local backButton
 
 -- Creating Transitioning Function back to main menu
 local function BackTransition( )
-    composer.gotoScene( "main_menu", {effect = "zoomOutInFadeRotate", time = 500})
+    composer.gotoScene( "main_menu", {effect = "slideUp", time = 500})
 end
 
 
@@ -75,7 +75,7 @@ function scene:create( event )
     {
         -- Setting Position
         x = display.contentWidth*1/8,
-        y = display.contentHeight*15/16,
+        y = display.contentHeight*2/16,
 
         -- Setting Dimensions
         -- width = 1000,
