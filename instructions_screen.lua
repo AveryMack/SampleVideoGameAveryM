@@ -1,6 +1,6 @@
 -----------------------------------------------------------------------------------------
 --
--- credits_screen.lua
+-- instructions_screen.lua
 -- Created by: Avery Mack
 -- Special thanks to Wal Wal for helping in the design of this framework.
 -- Date: April 10, 2018
