@@ -46,13 +46,13 @@ local bkgSoundsChannel
 
 -- Creating Transition Function to Credits Page
 local function CreditsTransition( )       
-    composer.gotoScene( "credits_screen", {effect = "flipFadeOutIn", time = 500})
+    composer.gotoScene( "credits_screen", {effect = "zoomOutInRotate", time = 500})
 end 
 -----------------------------------------------------------------------------------------
 
 -- Creating Transition to Level1 Screen
 local function Level1ScreenTransition( )
-    composer.gotoScene( "level1_screen", {effect = "zoomInOutFade", time = 1000})
+    composer.gotoScene( "level1_screen", {effect = "fade", time = 1000})
 end    
 
 -------------------------------------------------------------------------------------
